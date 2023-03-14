@@ -1,0 +1,277 @@
+.header {
+    margin-top: 2%;
+    padding: 0.2%;
+    text-align: right;
+    position: relative;
+    background: #ff399a;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+    border-radius: 20px;
+  }
+
+
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ff399a;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    width: 175px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .buttonTel {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1D1C57;
+    border: none;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px;
+    width: 157px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 3%;
+    border-radius: 20px;
+  }
+
+  .buttonDalje{
+    display: block;
+    border-radius: 4px;
+    background-color: #00C000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+    right: -700px;
+    top: 300px;
+    align-items: flex-end;
+    font-family: Helvetica;
+    position: relative;
+    float: left;
+  }
+  
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    /*content: '\2014';*/
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.pocetna{
+  text-align: right;
+}
+
+.slika {
+  text-align: left;
+  align-items: left;
+  float: left;
+  margin-top: 2%;
+}
+
+.tekst1{
+  margin-top: 2%;
+  padding: 0.2%;
+  margin-left: 350px;
+  margin-right: 5%;
+  text-align: left;
+  position: relative;
+   color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.footer{
+  background-color: #121214;
+}
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer ul.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer ul.social-icons li a i {
+  font-size: 20px;
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+.footer ul.social-icons li a i:hover {
+  color: #333;
+}
+
+
+.link {
+    color:#ff3f9a;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.DatumPolaska{
+  background-color: #ff3f9a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 17px;
+  width: 140px;
+  margin-top: 50px;
+  margin: 5px;
+  margin-right: 3%;
+  border-radius: 10px;
+  display: block;
+}
+
+.AdresaPolaska{
+  display: inline-block;
+  background-color: #ff3f9a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 17px;
+  width: 140px;
+  margin: 5px;
+  margin-right: 3%;
+  border-radius: 10px;
+  display: block;
+}
+
+.AdresaDolaska{
+  display: inline-block;
+  background-color: #ff3f9a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 17px;
+  width: 140px;
+  margin: 5px;
+  margin-right: 3%;
+  border-radius: 10px;
+  display: block;
+}
+
+.TipSeljenja{
+  display: inline-block;
+  background-color: #ff3f9a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 17px;
+  width: 140px;
+  margin: 5px;
+  margin-right: 3%;
+  border-radius: 10px;
+  display: block;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+select{
+  display: block;
+  width: 15%;
+  color: black;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: #121214;
+  border-radius: 4px;
+  border-width: 10px;
+  border:#121214;
+  cursor: pointer;
+}
+
+
+Forma {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
